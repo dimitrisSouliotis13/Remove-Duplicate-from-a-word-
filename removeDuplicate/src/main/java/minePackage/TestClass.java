@@ -31,7 +31,7 @@ public class TestClass {
             System.out.println("Enter the word you want:");
             String userWord = scannerUserWord.nextLine();
 
-            if (userWord.toLowerCase().equalsIgnoreCase("exit")) {
+            if (userWord.equalsIgnoreCase("exit")) {
                 System.out.println("Process finished!!");
                 System.exit(0);
             }
